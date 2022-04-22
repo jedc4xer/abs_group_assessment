@@ -11,3 +11,10 @@ Team Members:
      - Undecided
     Jed Dryer
      - Undecided
+     
+Goals:
+
+    Friday:
+        - Define Questions
+        - Complete ETL
+        - Get Datasets in usable form
