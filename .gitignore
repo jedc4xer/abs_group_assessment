@@ -2,4 +2,6 @@
 *.log
 *.ipynb_checkpoints
 gender_ownership_state.pdf
+.ipynb_checkpoints
 ipynb_checkpoints/
+
