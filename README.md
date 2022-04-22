@@ -9,8 +9,11 @@ Team Members:
      - Undecided
     Marjea Mckoy
      - Undecided
-    Jed Dryer
-     - Undecided
+    Jed Dryer (just adding some possible visuals)
+     - Reasons for Starting a Company by Industry
+     - Reasons for Starting a Company by State
+     - Some interesting choropleth map
+     - Scatterplot showing correlation between pay and profit (by industry/state/?)
      
 Goals:
 
