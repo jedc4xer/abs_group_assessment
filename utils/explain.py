@@ -7,6 +7,9 @@ but will return the primary variables.
 
 The indicator before the variable explanation (i.e. "DF -->") refers to the type of object that is referenced.
 
+If you edit the information in this module, be aware that Python only reads imports on a first pass, 
+so you will need to restart your kernel to see any changes.
+
 To use the function, just call explain.what_is() with no parameters.
 """
 
@@ -24,7 +27,52 @@ DF -->  The variable ['grouped_tables'] references a dataframe consisting of
 DF -->  The variable ['possible_merge_options'] references a dataframe consisting of
              a smaller subset of the grouped_tables dataframe. It's purpose is to assist
              with determining which variables are common in all tables.
-             """
+             """,
+        'common_vars': """
+List -> The variable ['common_vars'] references a list variable that contains all variables
+            which are present in all tables. Note: Those ending in "_group" have different
+            names for the variables in some of the tables.
+        """,
+        'comp_sum_df': """
+DF -->  The variable ['comp_sum_df'] references the 'Company Summary' gathered from the 
+        US Census Bureau Annual Business Survey.
+        
+        --> detail: STATE LEVEL <--
+        
+        The technical information for this data can be viewed at:
+        https://www2.census.gov/programs-surveys/abs/technical-documentation/api/API2019-company-summary-1-26-2021.pdf""",
+        'bus_char_df': """
+DF -->  The variable ['bus_char_df'] references the 'Characteristics of Business' gathered from the 
+        US Census Bureau Annual Business Survey.
+        
+        --> detail: STATE LEVEL <--
+        
+        The technical information for this data can be viewed at:
+        https://www2.census.gov/programs-surveys/abs/technical-documentation/api/ABS_API_CB-1-26-2021.pdf""",
+        'bus_own_df': """
+DF -->  The variable ['bus_own_df'] references the 'Characteristics of Business Owners' gathered from the 
+        US Census Bureau Annual Business Survey. 
+        
+        --> detail: NATIONAL LEVEL <--
+        
+        The technical information for this data can be viewed at:
+        https://www2.census.gov/programs-surveys/abs/technical-documentation/api/ABS_API_CBO-1-26-2021.pdf""",
+        'bus_tech_df': """
+DF -->  The variable ['bus_tech_df'] references the 'Technology Characteristics of Business' gathered from the 
+        US Census Bureau Annual Business Survey.
+        
+        --> detail: STATE LEVEL <--
+        
+        The technical information for this data can be viewed at:
+        https://www2.census.gov/programs-surveys/abs/technical-documentation/api/ABS_API_TCB-2-9-2021.pdf""",
+        'slbo': """
+DF -->  The variable ['slbo'] references the 'Characteristics of Business Owners' gathered from the 
+        US Census Bureau Annual Business Survey. 
+        
+        --> detail: STATE LEVEL <--
+        
+        The technical information for this data can be viewed at:
+        https://www2.census.gov/programs-surveys/abs/technical-documentation/api/ABS_API_CBO-1-26-2021.pdf""",
     }
     user_query = input('Blank Input returns all information.\nWhich dataframe are you asking about? (partial and complete matches returned) >> ')
     requested_vars = []
