@@ -6,7 +6,7 @@ Team Members:
     Jake Thompson
      - Gender & Racial Group Differences Across Industries
     Ryan Lippe
-     - Undecided
+     - Years in Business vs Sales, Number of employees, possibly a map by state
     Marjea Mckoy
      - Undecided
     Jed Dryer (just adding some possible visuals)
