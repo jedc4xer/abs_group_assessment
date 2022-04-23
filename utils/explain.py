@@ -90,7 +90,7 @@ DF -->  The variable ['slbo'] references the 'Characteristics of Business Owners
         return_string = "\n" + "\n".join(requested_vars)
         print(f'{return_string}')
         
-print('\n ----- HELPER MODULE IMPORTED -------')
+print('\n ----- HELPER MODULE IMPORTED ------')
 print(
     """
     For information on the helper module:
