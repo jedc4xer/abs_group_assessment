@@ -95,5 +95,8 @@ print(
     """
     For information on the helper module:
         run 'help(explain)' in any cell. 
+        
+    To directly use:
+        run 'explain.what_is()' with no parameters.
     """
 )
