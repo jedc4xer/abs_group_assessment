@@ -9,6 +9,3 @@ data/bus_own_df.csv
 data/bus_tech_df.csv
 data/comp_sum_df.csv
 data/slbo.csv
-highest_avg_pay_industry.html
-highest_avg_pay_ownergender.html
-highest_avg_pay_ownerrace.html
