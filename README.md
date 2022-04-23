@@ -21,3 +21,8 @@ Goals:
         - Define Questions
         - Complete ETL
         - Get Datasets in usable form
+        
+    Saturday
+        - Finish defining questions
+        - Work on visualizations
+        - Start on ETL Process documentation
