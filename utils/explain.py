@@ -75,14 +75,25 @@ DF -->  The variable ['slbo'] references the 'Characteristics of Business Owners
         https://www2.census.gov/programs-surveys/abs/technical-documentation/api/ABS_API_CBO-1-26-2021.pdf""",
     }
     user_query = input('Blank Input returns all information.\nWhich dataframe are you asking about? (partial and complete matches returned) >> ')
+    if user_query.isnumeric():
+        raise ValueError("Numeric inputs are invalid.")
+        
     requested_vars = []
     for key in df_information:
         if user_query.lower() in key.lower():
             requested_vars.append(df_information[key])
     if len(requested_vars) == 0:
-        print(f'No matches found.\nSome of the possibilities are {", ".join(_ for _ in df_information.keys)} ')
+        print(f'No matches found.\n\nSome of the possibilities are:\n{", ".join(_ for _ in df_information.keys())} ')
     else:
         if len(requested_vars) > 1:
             print('\nMultiple Matches Found')
         return_string = "\n" + "\n".join(requested_vars)
         print(f'{return_string}')
+        
+print('\n ----- HELPER MODULE IMPORTED -------')
+print(
+    """
+    For information on the helper module:
+        run 'help(explain)' in any cell. 
+    """
+)
