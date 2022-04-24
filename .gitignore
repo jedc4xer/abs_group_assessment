@@ -10,5 +10,4 @@ data/bus_tech_df.csv
 data/comp_sum_df.csv
 data/slbo.csv
 data/comp_sum_natl_df.csv
-*.html
 pop_tech.png
