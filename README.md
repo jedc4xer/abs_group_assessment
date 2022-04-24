@@ -1,28 +1,14 @@
 # abs_group_assessment
-Repository containing files related to the Group Assesment for Dev10 Module 8
+This repository contains files related to the Group Assesment for Dev10 Module 8. An API was used to access data from the US Census 2019 Annual Business Survey and visualizations were generated to answer questions about that data.
+
+data_exploration.ipynb is the main file, it details the ETL process and contains functions used to generate visuals by each group member.
+
+m08_final_report.pdf is the project report summarizing the findings of our data exploration.
+
 
 Team Members:
 
     Jake Thompson
-     - Gender & Racial Group Differences Across Industries
     Ryan Lippe
-     - Years in Business vs Sales, Number of employees, possibly a map by state
     Marjea Mckoy
-     - gender gap among business owners,category of responses by owners
-    Jed Dryer (just adding some possible visuals)
-     - Reasons for Starting a Company by Industry
-     - Reasons for Starting a Company by State
-     - Some interesting choropleth map
-     - Scatterplot showing correlation between pay and profit (by industry/state/?)
-     
-Goals:
-
-    Friday:
-        - Define Questions
-        - Complete ETL
-        - Get Datasets in usable form
-        
-    Saturday
-        - Finish defining questions
-        - Work on visualizations
-        - Start on ETL Process documentation
+    Jed Dryer
