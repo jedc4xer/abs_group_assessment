@@ -8,7 +8,7 @@ Team Members:
     Ryan Lippe
      - Years in Business vs Sales, Number of employees, possibly a map by state
     Marjea Mckoy
-     - Undecided
+     - gender gap among business owners,category of responses by owners
     Jed Dryer (just adding some possible visuals)
      - Reasons for Starting a Company by Industry
      - Reasons for Starting a Company by State
