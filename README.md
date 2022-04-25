@@ -9,6 +9,10 @@ Repository Structure:
     utils:
         This folder holds a helper python file that was assistive in the analysis process. 
         It's primary function was to display information about variables in the analysis.
+        
+    visuals:
+        This is an empty folder (except for a placeholder file). Visuals will get exported into
+        this folder after creation for some of the functions.
     
     backup_data_exploration.ipynb:
         This file is aptly named. We had a lot of issues with branches crashing, and wanted to
