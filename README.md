@@ -20,22 +20,6 @@ Repository Structure:
         
     m08_final_report.pdf:
         This file is the project report that summarizes the findings of our data exploration.
-    
-Dataset Variables (Sample Table):
-
-    |Name|Common_Vars|Tech Labels|Owner Labels|Characteristic Labels|Company Summary Labels
-    |BUSCHAR|BUSCHAR|-|-|Business characteristic code|-
-    |CBSA|CBSA|-|Geography|Geography|Geography
-    |EMP|EMP|Number of employees|-|Number of employees|Number of employees
-    |EMPSZFI|EMPSZFI|-|-|Employment size of firms code|Employment size of firms code
-    |EMP_PCT|EMP_PCT|Percent of employees (%)|-|Percent of employees (%)|-|
-    |ETH_GROUP|ETH_GROUP|Ethnicity code|-|Ethnicity code||Ethnicity code
-    |FACTORS_P|FACTORS_P|Factors adversely affecting technology product...|-|-|-|
-    |FACTORS_U|FACTORS_U|Factors adversely affecting technology use code|-|-|-
-    |FIRMPDEMP|FIRMPDEMP|Number of employer firms|-|Number of employer firms|Number of employer firms
-    |FIRMPDEMP_PCT|FIRMPDEMP_PCT|Percent of employer firms (%)|-|Percent of employer firms (%)|-
-    |GEOCOMP|GEOCOMP|GEO_ID Component|GEO_ID Component|GEO_ID Component|GEO_ID Component
-    |GEO_ID|GEO_ID|Geographic identifier code||Geographic identifier code|Geographic identifier code|Geographic identifier code
 
 Team Members:
 
