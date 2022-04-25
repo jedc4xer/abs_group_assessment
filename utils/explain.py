@@ -73,6 +73,21 @@ DF -->  The variable ['slbo'] references the 'Characteristics of Business Owners
         
         The technical information for this data can be viewed at:
         https://www2.census.gov/programs-surveys/abs/technical-documentation/api/ABS_API_CBO-1-26-2021.pdf""",
+        'comp_sum_natl_df': """
+DF -->  The variable ['comp_sum_natl_df'] references the 'Company Summary' gathered from the 
+        US Census Bureau Annual Business Survey. 
+        
+        --> detail: NATIONAL LEVEL <--
+        
+        The technical information for this data can be viewed at:
+        https://www2.census.gov/programs-surveys/abs/technical-documentation/api/API2019-company-summary-1-26-2021.pdf""",
+        'df': """
+DF -->  The variable ['df'] is a scope restrained dataframe that is reused in a variety of cases. It is simply a
+        shorter alias for whichever data it holds. This variable is used primarily when the data package might
+        change, such as in looping conditional functions.""",
+        'df_collection': """
+List -> The variable ['df_collection'] references a list of the stored dataframes. The function of this 
+        variable is to assist with simple looping through all dataframes."""
     }
     user_query = input('Blank Input returns all information.\nWhich dataframe are you asking about? (partial and complete matches returned) >> ')
     if user_query.isnumeric():
